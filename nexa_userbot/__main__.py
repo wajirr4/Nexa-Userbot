@@ -35,10 +35,10 @@ Copyright (c) 2021 Itz-fork
     logging.info(" >>  Checking ARQ API Key...")
     await check_arq_api()
     try:
-        await NEXAUB.send_message(chat_id=log_channel_id[1], text="`Nexa Userbot is alive!`")
+        await NEXAUB.send_message(chat_id=log_channel_id[1], text="`alive!`")
     except:
         logging.warn("There was an error while creating the LOG CHANNEL please add a one manually!")
-    logging.info("\n\n ✨ Nexa-Userbot is Alive \n\n")
+    logging.info("\n\n ✨ Alive \n\n")
     await idle()
 
 loop = asyncio.get_event_loop()
